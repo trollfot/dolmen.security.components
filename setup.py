@@ -4,8 +4,7 @@ import os
 from setuptools import setup, find_packages
 
 version = '0.1'
-readme = open(os.path.join(
-    'src', 'dolmen', 'security', 'components', 'README.txt')).read()
+readme = open('README.txt').read()
 history = open(os.path.join("docs", "HISTORY.txt")).read()
 
 install_requires = [
