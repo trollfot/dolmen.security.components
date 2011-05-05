@@ -3,7 +3,7 @@
 import os
 from setuptools import setup, find_packages
 
-version = '0.1'
+version = '0.1a1'
 readme = open('README.txt').read()
 history = open(os.path.join("docs", "HISTORY.txt")).read()
 
