@@ -1,0 +1,2 @@
+recursive-include src/dolmen/security/components *.txt *.py *.zcml
+recursive-include docs *.txt
