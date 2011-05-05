@@ -7,6 +7,7 @@ from dolmen.security.components import Role
 from dolmen.security.components import directives
 from grokcore.security.meta import PermissionGrokker
 
+from zope.i18nmessageid import Message
 from zope.component import provideUtility
 from zope.securitypolicy.interfaces import IRole
 from zope.securitypolicy.rolepermission import rolePermissionManager

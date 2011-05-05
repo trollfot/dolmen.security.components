@@ -8,12 +8,18 @@ readme = open('README.txt').read()
 history = open(os.path.join("docs", "HISTORY.txt")).read()
 
 install_requires = [
-    'setuptools',
-    'grokcore.security',
     'grokcore.component',
+    'grokcore.security',
+    'martian',
+    'setuptools',
+    'zope.component',
+    'zope.i18nmessageid',
+    'zope.securitypolicy',
     ]
 
 tests_require = [
+    'pytest',
+    'zope.testing',
     ]
 
 setup(name='dolmen.security.components',

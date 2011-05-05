@@ -3,8 +3,10 @@
 import martian
 import martian.util
 import martian.error
-from grokcore.component import name, title, description
 from grokcore.security import Permission
+
+# Convenient imports, to have them available
+from grokcore.component import name, title, description
 
 
 class permissions(martian.Directive):
@@ -29,7 +31,7 @@ class permissions(martian.Directive):
             if martian.util.not_unicode_or_ascii(value):
                 raise martian.error.GrokImportError(
                     "You can only pass unicode values, ASCII values, or "
-                    "subclasses of grok.Permission to the '%s' directive."
+                    "subclasses of `Permission` to the '%s' directive."
                     % self.name)
 
     def factory(self, *values):
