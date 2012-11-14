@@ -5,7 +5,7 @@ from martian.error import GrokError
 
 from dolmen.security.components import Role
 from dolmen.security.components import directives
-from grokcore.security.meta import PermissionGrokker
+from grokcore.security.meta.permission import PermissionGrokker
 
 from zope.i18nmessageid import Message
 from zope.component import provideUtility
