@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.1 (2011-11-14)
+----------------
+
+* correct import to work with grokcore.security 1.6.2
+
+
 0.1a1 (2011-05-05)
 ------------------
 
